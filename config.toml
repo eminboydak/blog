@@ -1,4 +1,4 @@
-baseURL = "https://eminboydak.com/"
+baseURL = "https://eminboydak.netlify.app/"
 languageCode = "tr-TR"
 defaultContentLanguage = "tr"
 title = "@eminboydak Seyir Defteri"
