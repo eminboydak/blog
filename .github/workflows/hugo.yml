@@ -78,5 +78,3 @@ jobs:
         uses: actions/deploy-pages@v2
         with:
           branch: gh-pages
-          folder: public
-          clean: true
