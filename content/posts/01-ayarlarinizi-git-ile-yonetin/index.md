@@ -1,5 +1,6 @@
 ---
 title: "Ayarlarınızı Git ile Yönetin"
+slug: "ayarlarinizi-git-ile-yonetin"
 date: 2022-05-06
 tags: ["linux", "git", "dotfiles"]
 ---
