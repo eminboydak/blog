@@ -1,7 +1,7 @@
 baseURL = "https://eminboydak.com/"
 languageCode = "tr-TR"
 defaultContentLanguage = "tr"
-title = "@eminboydak Seyir Defteri"
+title = "eminboydak logbook"
 
 theme = "hugo-unicorn"
 
