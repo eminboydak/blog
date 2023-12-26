@@ -1,0 +1,44 @@
+---
+import { Image } from "astro:assets";
+
+import PageLayout from "@/layouts/Base";
+import aboutImg from "@/assets/about-astro.png";
+
+const meta = {
+	title: "About",
+	description: "Something about eminboydak",
+};
+---
+
+<PageLayout meta={meta}>
+	<div class="space-y-6">
+		<h1 class="title">About Me</h1>
+		<p>Hello World! I usually write this sentence when I can't find anything to write.</p>
+		<p>
+			Anyway, let's keep it quick and simple, my name is Muhammed Emin Boydak, you can probably
+			understand by the name of my website.
+		</p>
+		<p>I am an embedded systems engineer, interested in software, firmware and electron things.</p>
+		<p>I graduated from Selçuk University, Department of Electrical and Electronics Engineering.</p>
+		<p>
+			I currently work in <a
+				class="cactus-link inline-block"
+				href="https://mepsan.com.tr"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="company website">Mepsan</a
+			>.
+		</p>
+		<p>This website is about me, what I'm working on and what I like to talk about.</p>
+
+		<h1 class="title">Contact</h1>
+		<p>
+			I have recently stopped using social media, so it is quite impossible for you to reach me
+			through social media, so you can reach me in the following ways:
+		</p>
+		<ul class="list-inside list-disc">
+			<li>Discord: eminboydak</li>
+			<li>E-mail: <a href="mailto:me@eminboydak.com">me@eminboydak.com</a></li>
+		</ul>
+	</div>
+</PageLayout>
