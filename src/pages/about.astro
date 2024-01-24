@@ -6,43 +6,39 @@ import aboutImg from "@/assets/about-astro.png";
 
 const meta = {
 	title: "About",
-	description: "I'm a starter theme for Astro.build",
+	description: "Something about eminboydak",
 };
 ---
 
 <PageLayout meta={meta}>
 	<div class="space-y-6">
-		<h1 class="title">About</h1>
+		<h1 class="title">About Me</h1>
+		<p>Hello World! I usually write this sentence when I can't find anything to write.</p>
 		<p>
-			Hi, I’m a starter Astro. I’m particularly great for getting you started with your own blogging
-			website.
+			Anyway, let's keep it quick and simple, my name is Muhammed Emin Boydak, you can probably
+			understand by the name of my website.
 		</p>
-		<div class="flex justify-center">
-			<Image
-				src={aboutImg}
-				alt="A cartoon cactus looking at the 'Astro.build' logo"
-				loading="eager"
-				fetchpriority="high"
-			/>
-		</div>
-		<p>Here are my some of my awesome built in features:</p>
-		<ul class="list-inside list-disc">
-			<li>I'm ultra fast as I'm a static site</li>
-			<li>I'm fully responsive</li>
-			<li>I come with a light and dark mode</li>
-			<li>I'm easy to customise and add additional content</li>
-			<li>I have Tailwind CSS styling</li>
-			<li>Shiki code syntax highlighting</li>
-			<li>Satori for auto generating OG images for blog posts</li>
-		</ul>
+		<p>I am an embedded systems engineer, interested in software, firmware and electron things.</p>
+		<p>I graduated from Selçuk University, Department of Electrical and Electronics Engineering.</p>
 		<p>
-			Clone or fork my <a
+			I currently work in <a
 				class="cactus-link inline-block"
-				href="https://github.com/chrismwilliams/astro-cactus"
+				href="https://mepsan.com.tr"
 				target="_blank"
 				rel="noopener noreferrer"
-				aria-label="github repository">repo</a
-			> if you like me!
+				aria-label="company website">Mepsan</a
+			>.
 		</p>
+		<p>This website is about me, what I'm working on and what I like to talk about.</p>
+
+		<h1 class="title">Contact</h1>
+		<p>
+			I have recently stopped using social media, so it is quite impossible for you to reach me
+			through social media, so you can reach me in the following ways:
+		</p>
+		<ul class="list-inside list-disc">
+			<li>Discord: eminboydak</li>
+			<li>E-mail: <a href="mailto:me@eminboydak.com">me@eminboydak.com</a></li>
+		</ul>
 	</div>
 </PageLayout>
