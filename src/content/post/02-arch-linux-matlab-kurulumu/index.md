@@ -1,7 +1,7 @@
 ---
 title: "Arch Linux MATLAB Kurulumu"
 publishDate: "06 Mar 2024"
-description: "dasdasdklajsdlkasjdlaksjdlkajsdkasjdlasdkjlaksdjlkas"
+description: "Arch Linux MATLAB kurulumu ile ilgili bir şeyler çiziktirdik"
 tags: ["tr", "linux", "arch", "matlab"]
 ---
 
